@@ -1,0 +1,16 @@
+{
+	"surfaceLen" : 6.2831853071795,
+	"meshSizeTarget" : 0.7,
+	"meshName_prefix" : "mesh_h",
+	"dimension" : 2,
+	"boundary" : 1,
+	"geometry" : "tri",
+	"postProcessFormat" : "lata",
+
+	"f_m" : "2*sin(y)*cos(x)",
+	"phi_m" : "sin(y)*cos(x)",
+	"upBC" : "sin(y)*cos(x)",
+	"downBC" : "sin(y)*cos(x)",
+	"leftBC" : "sin(y)*cos(x)",
+	"rightBC" : "sin(y)*cos(x)"
+}
